@@ -1,0 +1,54 @@
+how to change theme
+double click shift, type theme then options
+View -> Quick Switch Theme -> Theme-> IntelliJ Light
+what is method
+in java, method is block of code(group of java statements). define behaviour of class
+why:
+helps to remove duplicate codes from our application
+methods in form of modules which makes dev of large applicatons easier
+how to use:
+1 create method inside a class(cannot exist w/o classes)
+2 we create object of that class
+3 we call method by writing the name of the object, a dot, name of the method
+class calculator{
+void add(int x, int y){
+System.out.println(x+y)
+}
+public static void main (String[] args){
+Calculator calculator=new Calculator();
+calculator.add(w0,20);
+}
+}
+rules:
+void add(int x, int y){
+System.out.println(x+y);
+}
+void=> void is a return type and it is a must
+if you want to return an specific data write the name of that data type like for int for String we write String
+if we dont want to return anything we write void
+when we write a void we cant assign a method call to variable
+add+> next we write a name of method which can be anything it
+should follow the rules for giving a name to a variable
+methods do somthing so () used to specify the parameters. any datatype in the paranthesis
+they are optional and we can leave them empty
+{
+Sytem.out.print len (x+y);  // the body of the method
+}
+add(int x, int y) name and parameters is called the signature of method
+void add(int x, int y) header of the method
+to ignore bugs then double shift excludes and choose class or complete packages
+minus minus minus to include again
+
+type of Variables in Java:
+there are three type variables in java.
+1. Local variable:
+ if a variable is inside a method or a part of its parameters or a loop
+or switch statement it is called a local variable.
+2. Instance variable:
+ if a variable is inside the class but outside of any block of code like method loop
+switch statement if else condition it is called an instance variable.
+3. Static Variables:
+ if an instance variable has a static keyword with it than it is called static variable.
+  WHY LEARN ABOUT DIFFERENT TYPES OF VARIABLES?
+ 1.IT HELPS US REDUCE THE AMOUNT OF "RAM"THAT OUR APPLICATIONS WILL BE USING WHEN IT WILL BE RUNNING.
+ 2. WITH THE HELP OF THESE VARIABLES WE CAN PASS THE INFORMATION BETWEEN METHODS OF CLASS.
