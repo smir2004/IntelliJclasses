@@ -22,4 +22,4 @@ public class Task3reversePalindrome {
             task3.printIsPalindrome("aladin");
         }
     }
-}
+
